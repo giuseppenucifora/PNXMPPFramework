@@ -6,14 +6,11 @@ PODS:
     - CocoaAsyncSocket/RunLoop
   - CocoaAsyncSocket/GCD (7.4.3)
   - CocoaAsyncSocket/RunLoop (7.4.3)
-  - CocoaLumberjack (2.2.0):
-    - CocoaLumberjack/Default (= 2.2.0)
-    - CocoaLumberjack/Extensions (= 2.2.0)
-  - CocoaLumberjack/Core (2.2.0)
-  - CocoaLumberjack/Default (2.2.0):
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
     - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.2.0):
-    - CocoaLumberjack/Default
   - FBSnapshotTestCase (2.0.7):
     - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
   - FBSnapshotTestCase/Core (2.0.7)
@@ -25,9 +22,145 @@ PODS:
   - KissXML/Standard (5.0.3):
     - KissXML/Core
   - PNXMPPFramework (0.1.0):
+    - PNXMPPFramework/Authentication (= 0.1.0)
+    - PNXMPPFramework/BandwidthMonitor (= 0.1.0)
+    - PNXMPPFramework/Categories (= 0.1.0)
+    - PNXMPPFramework/Core (= 0.1.0)
+    - PNXMPPFramework/CoreDataStorage (= 0.1.0)
+    - PNXMPPFramework/GoogleSharedStatus (= 0.1.0)
+    - PNXMPPFramework/ProcessOne (= 0.1.0)
+    - PNXMPPFramework/Reconnect (= 0.1.0)
+    - PNXMPPFramework/Roster (= 0.1.0)
+    - PNXMPPFramework/SystemInputActivityMonitor (= 0.1.0)
+    - PNXMPPFramework/Utilities (= 0.1.0)
+    - PNXMPPFramework/XEP-0009 (= 0.1.0)
+    - PNXMPPFramework/XEP-0012 (= 0.1.0)
+    - PNXMPPFramework/XEP-0016 (= 0.1.0)
+    - PNXMPPFramework/XEP-0045 (= 0.1.0)
+    - PNXMPPFramework/XEP-0054 (= 0.1.0)
+    - PNXMPPFramework/XEP-0059 (= 0.1.0)
+    - PNXMPPFramework/XEP-0060 (= 0.1.0)
+    - PNXMPPFramework/XEP-0065 (= 0.1.0)
+    - PNXMPPFramework/XEP-0066 (= 0.1.0)
+    - PNXMPPFramework/XEP-0082 (= 0.1.0)
+    - PNXMPPFramework/XEP-0085 (= 0.1.0)
+    - PNXMPPFramework/XEP-0092 (= 0.1.0)
+    - PNXMPPFramework/XEP-0100 (= 0.1.0)
+    - PNXMPPFramework/XEP-0106 (= 0.1.0)
+    - PNXMPPFramework/XEP-0115 (= 0.1.0)
+    - PNXMPPFramework/XEP-0136 (= 0.1.0)
+    - PNXMPPFramework/XEP-0153 (= 0.1.0)
+    - PNXMPPFramework/XEP-0172 (= 0.1.0)
+    - PNXMPPFramework/XEP-0184 (= 0.1.0)
+    - PNXMPPFramework/XEP-0191 (= 0.1.0)
+    - PNXMPPFramework/XEP-0198 (= 0.1.0)
+    - PNXMPPFramework/XEP-0199 (= 0.1.0)
+    - PNXMPPFramework/XEP-0202 (= 0.1.0)
+    - PNXMPPFramework/XEP-0203 (= 0.1.0)
+    - PNXMPPFramework/XEP-0223 (= 0.1.0)
+    - PNXMPPFramework/XEP-0224 (= 0.1.0)
+    - PNXMPPFramework/XEP-0280 (= 0.1.0)
+    - PNXMPPFramework/XEP-0297 (= 0.1.0)
+    - PNXMPPFramework/XEP-0308 (= 0.1.0)
+    - PNXMPPFramework/XEP-0333 (= 0.1.0)
+    - PNXMPPFramework/XEP-0335 (= 0.1.0)
+  - PNXMPPFramework/Authentication (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/BandwidthMonitor (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Categories (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Core (0.1.0):
     - CocoaAsyncSocket
-    - CocoaLumberjack
+    - CocoaLumberjack (~> 1.9)
     - KissXML
+  - PNXMPPFramework/CoreDataStorage (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/GoogleSharedStatus (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/ProcessOne (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Reconnect (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Roster (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/CoreDataStorage
+  - PNXMPPFramework/SystemInputActivityMonitor (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Utilities (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0009 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0012 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0016 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0045 (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/CoreDataStorage
+    - PNXMPPFramework/XEP-0203
+  - PNXMPPFramework/XEP-0054 (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/Roster
+  - PNXMPPFramework/XEP-0059 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0060 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0065 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0066 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0082 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0085 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0092 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0100 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0106 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0115 (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/CoreDataStorage
+  - PNXMPPFramework/XEP-0136 (0.1.0):
+    - PNXMPPFramework/CoreDataStorage
+    - PNXMPPFramework/XEP-0085
+    - PNXMPPFramework/XEP-0203
+  - PNXMPPFramework/XEP-0153 (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0054
+  - PNXMPPFramework/XEP-0172 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0184 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0191 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0198 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0199 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0202 (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0082
+  - PNXMPPFramework/XEP-0203 (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0082
+  - PNXMPPFramework/XEP-0223 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0224 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0280 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0297 (0.1.0):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0203
+  - PNXMPPFramework/XEP-0308 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0333 (0.1.0):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0335 (0.1.0):
+    - PNXMPPFramework/Core
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -39,10 +172,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
-  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
   KissXML: d19dd6dc65e0dc721ba92b3077b8ebdd240f1c1e
-  PNXMPPFramework: 85a177de196fd742392f6ed0053c9cd2dd160f06
+  PNXMPPFramework: 69989a4b1f7470763acd3e9a3d982ddfa5c161df
 
 PODFILE CHECKSUM: c24dacdc80a49fe0e0fea049a6d762eb76667498
 

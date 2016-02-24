@@ -2,3 +2,4 @@
 #import <UIKit/UIKit.h>
 #endif
 
+#define HAVE_XMPP_SUBSPEC_POD
