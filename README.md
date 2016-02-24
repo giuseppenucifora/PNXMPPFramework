@@ -7,6 +7,8 @@
 
 ## Usage
 
+PNXMPPFramework is a fork of original framework https://github.com/robbiehanson/XMPPFramework.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
