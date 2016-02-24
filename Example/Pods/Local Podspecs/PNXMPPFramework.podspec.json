@@ -1,0 +1,39 @@
+{
+  "name": "PNXMPPFramework",
+  "version": "0.1.0",
+  "summary": "A short  of PNXMPPFramework.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PNXMPPFramework",
+  "license": "MIT",
+  "authors": {
+    "Giuseppe Nucifora": "me@giuseppenucifora.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PNXMPPFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PNXMPPFramework": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "CocoaLumberjack": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "KissXML": [
+
+      ]
+    }
+  }
+}

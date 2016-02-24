@@ -1,0 +1,6 @@
+framework module PNXMPPFramework {
+  umbrella header "PNXMPPFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,49 @@
+PODS:
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - KissXML (5.0.3):
+    - KissXML/Standard (= 5.0.3)
+  - KissXML/Core (5.0.3)
+  - KissXML/Standard (5.0.3):
+    - KissXML/Core
+  - PNXMPPFramework (0.1.0):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - KissXML
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PNXMPPFramework (from `../`)
+
+EXTERNAL SOURCES:
+  PNXMPPFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  KissXML: d19dd6dc65e0dc721ba92b3077b8ebdd240f1c1e
+  PNXMPPFramework: 85a177de196fd742392f6ed0053c9cd2dd160f06
+
+PODFILE CHECKSUM: c24dacdc80a49fe0e0fea049a6d762eb76667498
+
+COCOAPODS: 1.0.0.beta.3

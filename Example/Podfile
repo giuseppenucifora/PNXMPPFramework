@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'PNXMPPFramework_Example', :exclusive => true do
+target 'PNXMPPFramework_Example' do
   pod 'PNXMPPFramework', :path => '../'
 end
 
-target 'PNXMPPFramework_Tests', :exclusive => true do
+target 'PNXMPPFramework_Tests' do
   pod 'PNXMPPFramework', :path => '../'
 
   pod 'FBSnapshotTestCase'
