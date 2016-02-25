@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "PNXMPPFramework"
   s.version          = "0.1.0"
-  s.summary          = "PNXMPPFramework is a fork of original framework https://github.com/robbiehanson/XMPPFramework."
+  s.summary          = "PNXMPPFramework is a fork of original framework https://github.com/robbiehanson/XMPPFramework with KissXML and CocoaAsyncSocket upgrade"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

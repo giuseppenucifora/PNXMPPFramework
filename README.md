@@ -7,7 +7,7 @@
 
 ## Usage
 
-PNXMPPFramework is a fork of original framework https://github.com/robbiehanson/XMPPFramework.
+PNXMPPFramework is a fork of original framework https://github.com/robbiehanson/XMPPFramework with KissXML and CocoaAsyncSocket upgrade
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
