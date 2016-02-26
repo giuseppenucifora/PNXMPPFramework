@@ -84,16 +84,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-PNXMPPFramework_Tests/CocoaAsyncSocket.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/CocoaLumberjack.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/KissXML.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/PNXMPPFramework.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/FBSnapshotTestCase.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/CocoaAsyncSocket/CocoaAsyncSocket.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/CocoaLumberjack/CocoaLumberjack.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/KissXML/KissXML.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/PNXMPPFramework/PNXMPPFramework.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/libidn/libidn.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-PNXMPPFramework_Tests/CocoaAsyncSocket.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/CocoaLumberjack.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/KissXML.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/PNXMPPFramework.framework"
-  install_framework "Pods-PNXMPPFramework_Tests/FBSnapshotTestCase.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/CocoaAsyncSocket/CocoaAsyncSocket.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/CocoaLumberjack/CocoaLumberjack.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/KissXML/KissXML.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/PNXMPPFramework/PNXMPPFramework.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/libidn/libidn.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
 fi
