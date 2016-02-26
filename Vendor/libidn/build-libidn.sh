@@ -22,8 +22,8 @@
 ###########################################################################
 #  Choose your libidn version and your currently-installed iOS SDK version:
 #
-VERSION="1.25"
-SDKVERSION="6.0"
+VERSION="1.32"
+SDKVERSION="9.2"
 #
 #
 ###########################################################################

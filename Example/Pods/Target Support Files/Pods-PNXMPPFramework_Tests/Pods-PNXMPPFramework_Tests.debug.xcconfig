@@ -1,12 +1,11 @@
 CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
 ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/CocoaAsyncSocket" "$CONFIGURATION_BUILD_DIR/CocoaLumberjack" "$CONFIGURATION_BUILD_DIR/FBSnapshotTestCase" "$CONFIGURATION_BUILD_DIR/KissXML" "$CONFIGURATION_BUILD_DIR/PNXMPPFramework" "$CONFIGURATION_BUILD_DIR/libidn"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 $(inherited) $(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/XMPPFramework/module $(SDKROOT)/usr/include/libresolv
+HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 $(inherited) $(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/XMPPFramework/module $(SDKROOT)/usr/include/libresolv $(inherited) ${SRCROOT} ${SRCROOT}/lib ${SRCROOT}/lib/gl
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Vendor/libidn"
-OTHER_CFLAGS = $(inherited) -DDDXML_LIBXML_MODULE_ENABLED=0 $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/CocoaAsyncSocket.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/CocoaLumberjack.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSnapshotTestCase.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/KissXML.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/PNXMPPFramework.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"xml2" -framework "CocoaAsyncSocket" -framework "CocoaLumberjack" -framework "FBSnapshotTestCase" -framework "KissXML" -framework "PNXMPPFramework"
+OTHER_CFLAGS = $(inherited) -DDDXML_LIBXML_MODULE_ENABLED=0 $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/CocoaLumberjack/CocoaLumberjack.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/KissXML/KissXML.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/PNXMPPFramework/PNXMPPFramework.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/libidn/libidn.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"xml2" -framework "CocoaAsyncSocket" -framework "CocoaLumberjack" -framework "FBSnapshotTestCase" -framework "KissXML" -framework "PNXMPPFramework" -framework "libidn"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
-PODS_FRAMEWORK_BUILD_PATH = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-PNXMPPFramework_Tests"
 PODS_ROOT = ${SRCROOT}/Pods

@@ -8,9 +8,6 @@
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
 #endif
 
-#if TARGET_OS_IPHONE
-#warning This file does not work on TARGET_OS_IPHONE.
-#endif
 
 // Log levels: off, error, warn, info, verbose
 #if DEBUG

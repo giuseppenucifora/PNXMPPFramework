@@ -21,6 +21,7 @@ PODS:
   - KissXML/Core (5.0.3)
   - KissXML/Standard (5.0.3):
     - KissXML/Core
+  - libidn (1.32.1)
   - PNXMPPFramework (0.1.0):
     - PNXMPPFramework/Authentication (= 0.1.0)
     - PNXMPPFramework/BandwidthMonitor (= 0.1.0)
@@ -74,6 +75,7 @@ PODS:
     - CocoaAsyncSocket
     - CocoaLumberjack (~> 1.9)
     - KissXML
+    - libidn
   - PNXMPPFramework/CoreDataStorage (0.1.0):
     - PNXMPPFramework/Core
   - PNXMPPFramework/GoogleSharedStatus (0.1.0):
@@ -175,8 +177,9 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
   KissXML: d19dd6dc65e0dc721ba92b3077b8ebdd240f1c1e
-  PNXMPPFramework: 69989a4b1f7470763acd3e9a3d982ddfa5c161df
+  libidn: fdf56b4958f08f8544c4cf45b3ed28bfe45c2b05
+  PNXMPPFramework: 83fb69ac6878fac532c6920e2561f08d80f96863
 
 PODFILE CHECKSUM: c24dacdc80a49fe0e0fea049a6d762eb76667498
 
-COCOAPODS: 1.0.0.beta.3
+COCOAPODS: 1.0.0.beta.4

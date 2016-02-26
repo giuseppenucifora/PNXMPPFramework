@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  #s.source_files = 'Pod/Classes/**/*'
   s.resources = [ '**/*.{xcdatamodel,xcdatamodeld}']
   s.resource_bundles = {
     'PNXMPPFramework' => ['Pod/Assets/*.png']
@@ -39,18 +39,18 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
 
 
-s.preserve_path = 'PNXMPPFramework/module/module.modulemap'
+s.preserve_path = 'module/module.modulemap'
 #s.module_map = 'module/module.modulemap'
 
 s.subspec 'Core' do |core|
-core.source_files = ['XMPPFramework.h', 'Core/**/*.{h,m}', 'Vendor/libidn/*.h', 'Authentication/**/*.{h,m}', 'Categories/**/*.{h,m}', 'Utilities/**/*.{h,m}']
-core.vendored_libraries = 'Vendor/libidn/libidn.a'
+core.source_files = ['XMPPFramework.h', 'Core/**/*.{h,m}', 'Authentication/**/*.{h,m}', 'Categories/**/*.{h,m}', 'Utilities/**/*.{h,m}']
 core.libraries = 'xml2', 'resolv'
-core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(inherited) $(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/XMPPFramework/module $(SDKROOT)/usr/include/libresolv', 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Vendor/libidn"', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES', 'OTHER_LDFLAGS' => '"-lxml2"', 'ENABLE_BITCODE' => 'NO'
+core.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(inherited) $(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/XMPPFramework/module $(SDKROOT)/usr/include/libresolv', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES', 'OTHER_LDFLAGS' => '"-lxml2"', 'ENABLE_BITCODE' => 'NO'
 }
 core.dependency 'CocoaLumberjack','~>1.9'
 core.dependency 'CocoaAsyncSocket'
 core.dependency 'KissXML'
+core.dependency 'libidn'
 end
 
 s.subspec 'Authentication' do |ss|
