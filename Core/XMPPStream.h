@@ -5,7 +5,7 @@
 #import "CocoaAsyncSocket/GCDAsyncSocket.h"
 
 #if TARGET_OS_IPHONE
-  #import "DDXML.h"
+  #import <KissXML/DDXML.h>
 #endif
 
 @class XMPPSRVResolver;

@@ -2,7 +2,7 @@
 #import "XMPPModule.h"
 
 #if TARGET_OS_IPHONE
-#import "DDXML.h"
+#import <KissXML/DDXML.h>
 #endif
 
 #define _XMPP_BLOCKING_H
