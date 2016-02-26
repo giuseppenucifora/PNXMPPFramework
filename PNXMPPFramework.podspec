@@ -28,19 +28,18 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  #s.source_files = 'Pod/Classes/**/*'
   s.resources = [ '**/*.{xcdatamodel,xcdatamodeld}']
   s.resource_bundles = {
     'PNXMPPFramework' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.preserve_paths = "PNXMPPFramework/Vendor/libidn/"
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
 
-s.preserve_path = 'PNXMPPFramework/module/module.modulemap'
+s.preserve_path = 'module/module.modulemap'
 #s.module_map = 'module/module.modulemap'
 
 s.subspec 'Core' do |core|
