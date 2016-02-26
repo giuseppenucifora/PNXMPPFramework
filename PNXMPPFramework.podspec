@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
 
 
-s.preserve_path = 'PNXMPPFramework/module/module.modulemap'
+s.preserve_path = 'module/module.modulemap'
 #s.module_map = 'module/module.modulemap'
 
 s.subspec 'Core' do |core|

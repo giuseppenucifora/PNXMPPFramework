@@ -15,7 +15,6 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
   "resources": [
     "**/*.{xcdatamodel,xcdatamodeld}"
   ],
@@ -24,7 +23,7 @@
       "Pod/Assets/*.png"
     ]
   },
-  "preserve_paths": "PNXMPPFramework/module/module.modulemap",
+  "preserve_paths": "module/module.modulemap",
   "subspecs": [
     {
       "name": "Core",
